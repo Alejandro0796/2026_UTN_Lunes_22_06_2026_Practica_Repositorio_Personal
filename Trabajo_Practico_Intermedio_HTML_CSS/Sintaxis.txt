@@ -1,0 +1,758 @@
+###index_header
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo_Practico_Header</title>
+    <link rel="stylesheet" href="./style_header.css">
+</head>
+
+<body>
+
+    <header class="barra_superior">
+
+        <div class="logo_hostinger">
+            <div class="icono_logo">H</div>
+            <div class="texto_logo">HOSTINGER</div>
+        </div>
+
+        <div class="menu_principal">
+            <div>Precios</div>
+            <div>Servicios ▼</div>
+            <div>Examinar ▼</div>
+            <div>Comercio</div>
+            <div class="nuevo">Nuevo</div>
+        </div>
+
+        <div class="acciones_usuario">
+
+            <div class="boton_ia">
+                ✦ Preguntar a la IA
+            </div>
+
+            <div class="idioma">
+                es ES
+            </div>
+
+            <div class="usuario">
+                👤
+            </div>
+
+        </div>
+
+    </header>
+
+     <header class="barra_blog">
+
+        <div class="menu_blog">
+
+            <div class="opcion_blog">Blogs</div>
+            <div class="opcion_blog">Clientes</div>
+            <div class="opcion_blog">Vida Cotidiana</div>
+            <div class="opcion_blog">WordPress</div>
+            <div class="opcion_blog">Ingenieria</div>
+            <div class="opcion_blog">Perspectivas</div>
+
+        </div>
+
+        <div class="buscador_blog">
+            🔍
+        </div>
+
+    </header>
+
+</body>
+
+</html>
+
+
+###index_hero
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trabajo_Practico_Hero</title>
+
+    <link rel="stylesheet" href="./style_hero.css">
+
+</head>
+
+<body>
+
+    <section class="hero_principal">
+
+        <!-- Imagen -->
+
+        <div class="hero_imagen">
+
+            <img src="./Imagenes_uso/imagen_cliente_1.png" alt="Imagen principal">
+
+        </div>
+
+        <!-- Contenido -->
+
+        <div class="hero_contenido">
+
+            <p class="hero_etiqueta">
+
+                Articulo Destacado
+
+            </p>
+
+            <h1 class="hero_titulo">
+
+                Hostinger pone al alcance de los usuarios cotidianos, la potencia de "Hermes Agent". Diseñada pensando en los desarrolladores.
+
+            </h1>
+
+            <p class="hero_descripcion">
+
+                Hostinger lanza "Managed Hermes Agent", un servicio que simplifica al máximo el avanzado agente de IA de nivel profesional para desarrolladores. 
+                De modo que cualquiera pueda configurarlo y usarlo.
+                Los agentes de IA personales se están convirtiendo en una herramienta cada vez más útil para desarrolladores y empresas que buscan automatizar tareas y mejorar la productividad.
+
+            </p>
+
+            <!-- Autor -->
+
+            <div class="hero_autor">
+
+                <div class="hero_foto">
+
+                   <img src="./Imagenes_uso/imagen_1_0.png" alt="Imagen principal">
+
+                </div>
+
+                <div class="hero_datos">
+
+                    <h3>Gediminas G</h3>
+
+                    <p>Jun 10, 2026</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
+
+
+###index_clientes
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trabajo_Practico_Clientes</title>
+
+    <link rel="stylesheet" href="./style_clients.css">
+
+</head>
+
+<body>
+
+    <section class="clientes">
+
+        <!-- ENCABEZADO -->
+
+        <div class="encabezado_clientes">
+
+            <h1>Clientes</h1>
+
+            <p>
+
+                Descubre las historias de héroes reales que convirtieron 
+                sus sueños e ideas en realidad en línea con Hostinger.
+
+            </p>
+
+        </div>
+
+        <!-- TARJETA 1 -->
+
+        <div class="tarjeta_cliente">
+
+            <div class="imagen_cliente">
+
+                 <img src="./Imagenes_uso/imagen_cliente_2.png" alt="Girl on a Zebra">
+
+            </div>
+
+            <div class="contenido_cliente">
+
+                <p class="categoria">
+
+                    19 Jul • HISTORIAS DE CLIENTES • CLIENTE DESTACADO • 5min
+
+                </p>
+
+                <h2>
+
+                    Chica sobre una cebra: Cómo Oliver y Carae crearon un blog de viajes con 156.000 lectores mensuales.
+
+                </h2>
+
+                <p class="descripcion">
+
+                    A Oliver y Carae no les faltaban ideas de negocio. A lo largo de los años,
+                    esta pareja amante de los viajes experimentó con todo tipo de proyectos, desde una marca de trajes de baño ecológicos
+                    hasta planes para abrir... 
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- TARJETA 2 -->
+
+        <div class="tarjeta_cliente">
+
+            <div class="imagen_cliente">
+
+                <img src="./Imagenes_uso/imagen_cliente_3.png" alt="Loveliss">
+
+
+            </div>
+
+            <div class="contenido_cliente">
+
+                <p class="categoria">
+
+                    HISTORIAS DE CLIENTES • CLIENTE DESTACADO
+
+                </p>
+
+                <h2>
+
+                    Loveliss: Transformando los residuos plásticos en productos sostenibles.
+
+                </h2>
+
+                <p class="descripcion">
+
+                    Descubre cómo un emprendedor local transformó plástico desechado en
+                    productos ecológicos mientras desarrollaba un negocio en línea.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
+
+
+
+###Style.css
+
+###Style_header
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* HEADER 1 */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:"Montserrat",sans-serif;
+
+}
+
+.barra_superior{
+
+    height:72px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0px 35px;
+
+    border-top:3px solid #673DE6;
+    border-bottom:1px solid #ECECEC;
+
+}
+
+.logo_hostinger{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+}
+
+.icono_logo{
+
+    width:32px;
+    height:32px;
+
+    background:black;
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-weight:bold;
+
+}
+
+.texto_logo{
+
+    font-size:18px;
+    font-weight:700;
+    letter-spacing:1px;
+
+}
+
+.menu_principal{
+
+    display:flex;
+    gap:38px;
+
+    margin-right:auto;
+    margin-left:45px;
+
+    font-size:16px;
+
+    align-items:center;
+
+}
+
+.nuevo{
+
+    color:#673DE6;
+    font-size:13px;
+    font-weight:700;
+
+}
+
+.acciones_usuario{
+
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+}
+
+.boton_ia{
+
+    border:1px solid #673DE6;
+
+    border-radius:25px;
+
+    padding:12px 22px;
+
+    font-weight:600;
+
+}
+
+.idioma{
+
+    border:1px solid lightgray;
+
+    border-radius:25px;
+
+    padding:12px 18px;
+
+}
+
+.usuario{
+
+    font-size:22px;
+
+}
+
+
+
+/* Header Numero 2 */
+
+
+.barra_blog{
+
+    height:68px;
+
+    background-color:#673DE6;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+
+}
+
+.menu_blog{
+
+    display:flex;
+    align-items:center;
+    gap:55px;
+
+}
+
+.opcion_blog{
+
+    color:white;
+    font-size:17px;
+    font-weight:600;
+
+}
+
+.buscador_blog{
+
+    color:white;
+    font-size:26px;
+
+    position:absolute;
+
+    right:40px;
+
+}
+
+
+
+###Style_hero
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:"Montserrat",sans-serif;
+
+    background-color:white;
+
+}
+
+/* ========================= */
+/* HERO PRINCIPAL */
+/* ========================= */
+
+.hero_principal{
+
+    width:1450px;
+
+    margin:60px auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:60px;
+
+}
+
+/* ========================= */
+/* IMAGEN */
+/* ========================= */
+
+.hero_imagen{
+
+    width:760px;
+
+}
+
+.hero_imagen img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:16px;
+
+}
+
+/* ========================= */
+/* CONTENIDO */
+/* ========================= */
+
+.hero_contenido{
+
+    width:600px;
+
+}
+
+.hero_etiqueta{
+
+    color:#673DE6;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    margin-bottom:22px;
+
+}
+
+.hero_titulo{
+
+    color:#2F1C6A;
+
+    font-size:54px;
+
+    font-weight:700;
+
+    line-height:64px;
+
+    margin-bottom:30px;
+
+}
+
+.hero_descripcion{
+
+    color:#727586;
+
+    font-size:22px;
+
+    line-height:36px;
+
+    margin-bottom:45px;
+
+}
+
+/* ========================= */
+/* AUTOR */
+/* ========================= */
+
+.hero_autor{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.hero_foto{
+
+    width:60px;
+
+    height:60px;
+
+}
+
+.hero_foto img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+}
+
+.hero_datos{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.hero_datos h3{
+
+    color:#2F1C6A;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:6px;
+
+}
+
+.hero_datos p{
+
+    color:#727586;
+
+    font-size:15px;
+
+}
+
+####Style_Clientes
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:"Montserrat",sans-serif;
+
+    background-color:white;
+
+}
+
+/* ========================= */
+/* CLIENTS */
+/* ========================= */
+
+.clientes{
+
+    width:900px;
+
+    margin:70px auto;
+
+}
+
+/* ========================= */
+/* ENCABEZADO */
+/* ========================= */
+
+.encabezado_clientes{
+
+    margin-bottom:55px;
+
+}
+
+.encabezado_clientes h1{
+
+    color:#2F1C6A;
+
+    font-size:50px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.encabezado_clientes p{
+
+    color:#727586;
+
+    font-size:26px;
+
+    line-height:40px;
+
+}
+
+/* ========================= */
+/* TARJETAS */
+/* ========================= */
+
+.tarjeta_cliente{
+
+    margin-bottom:80px;
+
+}
+
+/* ========================= */
+/* IMAGEN */
+/* ========================= */
+
+.imagen_cliente{
+
+    margin-bottom:35px;
+
+}
+
+.imagen_cliente img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:18px;
+
+}
+
+/* ========================= */
+/* CONTENIDO */
+/* ========================= */
+
+.contenido_cliente{
+
+    width:100%;
+
+}
+
+.categoria{
+
+    color:#2F1C6A;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.contenido_cliente h2{
+
+    color:#2F1C6A;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    line-height:52px;
+
+    margin-bottom:25px;
+
+}
+
+.descripcion{
+
+    color:#727586;
+
+    font-size:24px;
+
+    line-height:38px;
+
+}

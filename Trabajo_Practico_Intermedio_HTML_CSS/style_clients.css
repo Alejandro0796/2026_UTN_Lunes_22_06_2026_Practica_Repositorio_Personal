@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:"Montserrat",sans-serif;
+
+    background-color:white;
+
+}
+
+/* ========================= */
+/* CLIENTS */
+/* ========================= */
+
+.clientes{
+
+    width:900px;
+
+    margin:70px auto;
+
+}
+
+/* ========================= */
+/* ENCABEZADO */
+/* ========================= */
+
+.encabezado_clientes{
+
+    margin-bottom:55px;
+
+}
+
+.encabezado_clientes h1{
+
+    color:#2F1C6A;
+
+    font-size:50px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.encabezado_clientes p{
+
+    color:#727586;
+
+    font-size:26px;
+
+    line-height:40px;
+
+}
+
+/* ========================= */
+/* TARJETAS */
+/* ========================= */
+
+.tarjeta_cliente{
+
+    margin-bottom:80px;
+
+}
+
+/* ========================= */
+/* IMAGEN */
+/* ========================= */
+
+.imagen_cliente{
+
+    margin-bottom:35px;
+
+}
+
+.imagen_cliente img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:18px;
+
+}
+
+/* ========================= */
+/* CONTENIDO */
+/* ========================= */
+
+.contenido_cliente{
+
+    width:100%;
+
+}
+
+.categoria{
+
+    color:#2F1C6A;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.contenido_cliente h2{
+
+    color:#2F1C6A;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    line-height:52px;
+
+    margin-bottom:25px;
+
+}
+
+.descripcion{
+
+    color:#727586;
+
+    font-size:24px;
+
+    line-height:38px;
+
+}
