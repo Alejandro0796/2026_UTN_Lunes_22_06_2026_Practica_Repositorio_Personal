@@ -1,0 +1,78 @@
+/* *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue !important;
+}
+
+.titulo{
+    color: blueviolet;
+}
+
+.titulo{
+    color: green;
+}
+
+h1 {
+    color: red;
+    font-size: 120px;
+} 
+
+
+
+
+.subrayado{
+    text-decoration: 1px solid underline black;
+} */
+
+/* ESTO ES UNA MALA PRACTICA, NO usar ids para css en cambio usar clases */
+/* #titulo-especial{
+    background-color: black;
+    text-shadow: 1px 1px 10px rgb(211, 184, 236);
+}
+ */
+
+
+
+/* 
+Selectores CSS
+    Nos sirven para seleccionar elementos de nuestro HTML
+
+    - Elementos => permiten seleccionar elementos HTML
+        h1{} = Todos los h1
+
+    - Clase => Permiten seleccionar a todos los elementos que tengan x clase
+        .titulo{} = Todos los elementos con la clase titulo
+
+    - ID => Permiten seleccionar a todos los elementos que tengan un x ID
+        #titulo-especial{} = Todos los elementos con el id titulo-especial
+    
+    - Selector universal => Permite selecciona a todos los elementos del HTML
+        *{} = Todos los elementos tendran este estilo
+
+
+ESPECIFICIDAD
+    La especificidad es determinada por que tan espeficico es el selector/tipo de css que usamos.
+
+    A mas especificidad mas especifica es una orden y por ende mas importancia tiene.
+
+    Si la especificidad es la misma entonces se definira la orden por el orden de lectura, la ultima orden sera la valida.
+*/
+
+/* 
+Las propiedades de css nos permiten modificar los estilos de nuestra pagina
+*/
+
+.title{
+    font-size: 120px; /* Tamaño de fuente */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    font-weight: 600; /* Peso de la fuente */
+    text-align: center;
+    word-spacing: 50px; /* Espacio entre palabras */
+    letter-spacing: 5px; /* Espacio entre letras */
+    color: #7c0202;
+}
+
+p{
+    text-align: justify; /* Alineamiento de texto */
+    line-height: 16px; /* Interlineado */
+
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #111111;
+    color: #d8d8d8;
+    font-family: 'Montenegrin Gothic One';
+}
+
+.pagina {
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 70px;
+}
+
+/* Bloques */
+
+.bloque {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bloque h1 {
+    margin: 0 0 20px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.bloque h2 {
+    margin: 0 0 15px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.link {
+    margin: 0 0 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Banco */
+
+.banco {
+    width: 520px;
+}
+
+.caja-externa {
+    background-color: white;
+}
+
+.caja-banco {
+    width: 220px;
+    height: 118px;
+    padding: 30px;
+}
+
+.boton-turnos {
+    width: 176px;
+    height: 64px;
+    background-color: #ffc035;
+    color: #5d6468;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Figma */
+
+.figma {
+    width: 480px;
+    margin-left: 120px;
+    margin-top: 55px;
+}
+
+.caja-figma {
+    width: 410px;
+    height: 118px;
+    padding: 29px 50px;
+}
+
+.boton-negro {
+    width: 310px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* CAN I USE */
+
+.caniuse {
+    display: block;
+    width: 900px;
+    margin-left: 75px;
+    margin-top: 130px;
+}
+
+.caja-texto {
+    width: 885px;
+    height: 76px;
+    background-color: #19160f;
+    padding: 20px;
+}
+
+.caja-texto p {
+    margin: 0;
+    color: #d48a24;
+    font-size: 27px;
+    font-weight: bold;
+
+    text-shadow: 
+        0px 0px 2px #110e07,
+        1px 1px 2px #000000;
+}

@@ -1,0 +1,316 @@
+EXPLICACION DE PROPIEDADES CSS - PRACTICA POSITION
+Clase 9 CSS Position / Sticky / Absolute / Fixed
+
+============================================================
+1. position
+============================================================
+
+position sirve para controlar como se ubica una caja en la pagina.
+
+position: static;
+- Es la posicion normal por defecto.
+- No permite mover bien con top, right, bottom o left.
+
+position: relative;
+- Mueve una caja desde su lugar original.
+- Tambien sirve para preparar al padre.
+- Si un hijo tiene position: absolute, busca un padre con position: relative para ubicarse dentro de el.
+
+position: absolute;
+- Saca al elemento del orden normal.
+- Permite ubicarlo manualmente con top, right, bottom y left.
+- Si el padre tiene position: relative, el hijo absolute se posiciona dentro de ese padre.
+
+position: fixed;
+- Deja un elemento fijo en la pantalla.
+- Aunque hagas scroll, se queda en el mismo lugar.
+- Sirve para botones flotantes, publicidades, modales o barras fijas.
+
+position: sticky;
+- El elemento se mueve normal al principio.
+- Cuando llega a una posicion indicada, queda pegado.
+- Normalmente se usa con top.
+
+============================================================
+2. top
+============================================================
+
+top marca distancia desde arriba.
+
+Ejemplo:
+.caja {
+    position: absolute;
+    top: 20px;
+}
+
+Significa:
+La caja queda a 20px desde arriba.
+
+============================================================
+3. bottom
+============================================================
+
+bottom marca distancia desde abajo.
+
+Ejemplo:
+.caja {
+    position: absolute;
+    bottom: 20px;
+}
+
+Significa:
+La caja queda a 20px desde abajo.
+
+============================================================
+4. left
+============================================================
+
+left marca distancia desde la izquierda.
+
+Ejemplo:
+.caja {
+    position: absolute;
+    left: 40px;
+}
+
+Significa:
+La caja queda a 40px desde el lado izquierdo.
+
+============================================================
+5. right
+============================================================
+
+right marca distancia desde la derecha.
+
+Ejemplo:
+.caja {
+    position: absolute;
+    right: 40px;
+}
+
+Significa:
+La caja queda a 40px desde el lado derecho.
+
+============================================================
+6. z-index
+============================================================
+
+z-index sirve para decidir que elemento queda encima de otro.
+
+Ejemplo:
+.fondo {
+    position: absolute;
+    z-index: 1;
+}
+
+.texto {
+    position: absolute;
+    z-index: 2;
+}
+
+Significa:
+El fondo queda abajo.
+El texto queda arriba.
+
+Regla simple:
+Numero mas alto = elemento mas arriba.
+
+Importante:
+z-index funciona mejor cuando el elemento tiene position: relative, absolute, fixed o sticky.
+
+============================================================
+7. background-color
+============================================================
+
+background-color sirve para poner color de fondo.
+
+Ejemplos simples:
+background-color: black;
+background-color: white;
+background-color: green;
+background-color: blue;
+background-color: red;
+
+============================================================
+8. color
+============================================================
+
+color cambia el color del texto.
+
+Ejemplo:
+.titulo {
+    color: white;
+}
+
+Significa:
+El texto se ve blanco.
+
+============================================================
+9. width
+============================================================
+
+width sirve para definir el ancho de una caja.
+
+Ejemplo:
+.caja {
+    width: 300px;
+}
+
+Significa:
+La caja mide 300px de ancho.
+
+============================================================
+10. height
+============================================================
+
+height sirve para definir el alto de una caja.
+
+Ejemplo:
+.caja {
+    height: 200px;
+}
+
+Significa:
+La caja mide 200px de alto.
+
+============================================================
+11. padding
+============================================================
+
+padding es espacio interno.
+
+Ejemplo:
+.caja {
+    padding: 20px;
+}
+
+Significa:
+El contenido queda separado del borde interno de la caja.
+
+============================================================
+12. margin
+============================================================
+
+margin es espacio externo.
+
+Ejemplo:
+.caja {
+    margin-top: 40px;
+}
+
+Significa:
+La caja se separa 40px desde arriba.
+
+Diferencia clave:
+padding = espacio hacia adentro.
+margin = espacio hacia afuera.
+
+============================================================
+13. border
+============================================================
+
+border sirve para poner borde.
+
+Ejemplo:
+.caja {
+    border: 1px solid black;
+}
+
+Significa:
+La caja tiene un borde de 1px, linea solida y color negro.
+
+============================================================
+14. border-radius
+============================================================
+
+border-radius redondea las esquinas.
+
+Ejemplo:
+.caja {
+    border-radius: 10px;
+}
+
+Para hacer un circulo, la caja debe tener el mismo width y height.
+
+Ejemplo:
+.circulo {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+============================================================
+15. overflow: hidden
+============================================================
+
+overflow: hidden oculta lo que se sale de una caja.
+
+Ejemplo:
+.hero {
+    overflow: hidden;
+}
+
+Sirve mucho cuando una caja tiene bordes redondeados y adentro tiene una imagen o contenido que podria salirse.
+
+============================================================
+16. background-image
+============================================================
+
+background-image sirve para poner una imagen de fondo.
+
+Ejemplo:
+.hero {
+    background-image: url("./hero.jpg");
+}
+
+Significa:
+La caja usa hero.jpg como fondo.
+
+============================================================
+17. background-size: cover
+============================================================
+
+background-size: cover hace que la imagen cubra toda la caja.
+
+Ejemplo:
+.hero {
+    background-size: cover;
+}
+
+La imagen puede recortarse un poco, pero cubre toda la caja.
+
+============================================================
+18. background-position: center
+============================================================
+
+background-position: center centra la imagen de fondo.
+
+Ejemplo:
+.hero {
+    background-position: center;
+}
+
+Significa:
+Se muestra el centro de la imagen.
+
+============================================================
+IDEA CLAVE DE POSITION
+============================================================
+
+position: relative prepara al padre.
+position: absolute mueve al hijo dentro de ese padre.
+
+Ejemplo mental:
+
+.padre {
+    position: relative;
+}
+
+.hijo {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+Eso significa:
+El hijo queda dentro del padre, abajo a la derecha.
