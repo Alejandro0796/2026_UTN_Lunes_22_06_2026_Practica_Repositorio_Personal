@@ -1,4 +1,0 @@
-- Repaso (git)
-- Despliegue con github pages y vercel!!
-- Gitflow 
-- HTML (si llegamos)

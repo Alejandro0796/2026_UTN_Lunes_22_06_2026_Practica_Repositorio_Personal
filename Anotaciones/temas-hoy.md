@@ -1,4 +1,0 @@
--Repaso
--Despliegue con github pages y vercel
--Gitflow
--HTML (Si llegamos)
